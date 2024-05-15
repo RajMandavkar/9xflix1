@@ -1,0 +1,172 @@
+* {
+
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+ul {
+
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+#main-area {
+
+	width: 980px;
+	height: auto;
+	margin: 0 auto;
+}
+
+header{
+    width:100%;
+    height: 180px;
+    background-color: #343434;
+    float: left;
+}
+
+
+hgroup{
+    width: 427px;
+    height: 180px;
+    float: left;
+    margin-top: 25px;
+
+}
+
+.search{
+    width: 448px;
+    height: 180px;
+    margin: 62px 50px;
+    float: left;
+}
+
+.search input{
+    width: 400px;
+    height: 29px;
+    float: left;
+    border-right: none;
+    line-height: 180px;
+    
+    
+}
+
+.search input[type="submit"]{
+	
+    width: 40px;
+    height: 34px;
+    float: left;
+    border: 2px solid #000;
+    border-left: none;
+    background: #5182df url(images/search.png) center no-repeat;
+    font-size: 0;
+}
+
+menu{
+    width:100%;
+    height: 60px;
+    background-color: #6783c4;
+    float: left;
+    text-align: center;
+    margin-top: 5px;
+}
+
+menu ul li{
+    float:left;
+    padding: 0px 25px;
+    transition: 0.5s;
+}
+
+menu ul li a{
+    
+    line-height: 60px;
+    color:#fff;
+    font-family: "Comic Sans MS";
+    
+}
+
+menu ul li:hover , menu ul li.active{
+    background-color: #343434;
+    
+}
+
+content{
+    width: 310px;
+	height: 515px;
+	float: left;
+	border-radius: 10px;
+}
+
+content img{
+    width: 310px;
+    height: 450px;
+    display: block;
+    border-radius: 10px;
+}
+
+content h1{
+    float: left;
+    display: block;
+}
+
+content h1{
+    font-size: 20px;
+    text-align: justify;
+    font-family: "Gill Sans MT";
+}
+
+.spacing{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+section{
+    height: 30px;
+    width: auto;
+    float: left;
+    background-color: #5182df;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+section strong{
+    border-radius: 10px;
+    
+}
+
+section strong a {
+    line-height: 30px;
+    padding:5px 5px;
+    color: #fff;
+}
+
+.spacing1{
+    margin-left: 10px;
+}
+
+footer{
+    height:200px;
+    width: 100%;
+    background-color: #000;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+footer p{
+    color: #fff;
+    line-height: 50px;
+
+}
+
+footer p span{
+    color: #5182df;
+}
+
+footer h2{
+    color: #5182df;
+    font-family: "Ink Free";
+}
